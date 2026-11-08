@@ -29,11 +29,9 @@ Your reflection should be approximately 150–200 words and address the followin
 
 1. What concepts or skills did you learn while completing this assignment?
 
-What I learned is the organization of the codes and the codes needed to organize the BST itself. 
-The codes such as if value < node.value: node.left = self._insert_recursive(node.left, value) 
-is the perfect example that shows the start of organizing the BST. 
-I would put this same one for the larger values to be inserted to the right. 
-This helps me better understand organizing my inserts to be where I want them to be.
+What I learned is the codes such as, if value < node.value: node.left = self._insert_recursive(node.left, value) 
+perfectly shows the start of organizing the BST. I would put this same one for the larger values to be inserted to the right. 
+This helps me better understand organizing my inserts to be where I want them to be. 
 
 2. What challenges did you encounter, and how did you overcome them?
 
