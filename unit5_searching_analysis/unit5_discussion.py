@@ -172,6 +172,29 @@ def main():
 
     print("Linear search list:", linear_search(single_list, 5))
 
+    print("\n=== REAL-WORLD SCENARIOS ===")
+
+    # List of student test scores
+    grades = [85, 92, 70, 88, 95, 78, 90]
+
+    # Teacher wants to find a score of 88
+    target_grade = 88
+
+    # Linear search checks each grade one by one
+    linear_result = linear_search(grades, target_grade)
+
+    print("Linear search index:", linear_result)
+
+    # Sort the grade for binary search
+    sorted_grades = sorted(grades)
+
+    # Binary search checks the middle value and removes half of the search area
+    binary_result = binary_search(sorted_grades, target_grade)
+
+    print("Sorted grades:", sorted_grades)
+
+    print("Binary search index:", binary_result)
+
 
 if __name__ == "__main__":
     main()
